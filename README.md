@@ -9,14 +9,13 @@ Use the generated `auth otken` as `bearer` in `Postman`
 
 ```json
 
-[POST]api/v1/employee
+[POST]api/v1/auth
 [POST]api/v1/employee-address/{userId}
-[PUT]api/v1/employee
+[PUT]api/v1/user
 [PUT]api/v1/employee-address/{addressId}
-[GET]api/v1/employee/{id}
-[GET]api/v1/employee/all/{pagenumber=0}
-[GET]api/v1/employee/all/{pagenumber=0}/{sort}
-[GET]api/v1/employee/all//{pagenumber=0}/{search}
+[GET]api/v1/user/{id}
+[GET]api/v1/user//{pagenumber=0}/{search}
+[DELETE]api/v1/user/{userId}
 [GET]api/v1/employee-address/{addressId}
 [DELETE]api/v1/employee-address/{addressId}
 [DELETE]api/v1/employee/{id}
